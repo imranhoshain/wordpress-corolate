@@ -1,4 +1,4 @@
-
+<?php get_header(); ?>
 
     <section id="main-slider" class="no-margin">
         <div class="carousel slide">
@@ -597,5 +597,4 @@
             </div>
         </div><!--/.container-->    
     </section><!--/#conatcat-info-->
-
-   
+<?php get_footer(); ?>

@@ -1,21 +1,13 @@
  <section id="bottom">
         <div class="container wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
             <div class="row">
-                <div class="col-md-3 col-sm-6">
-                    <?php echo dynamic_sidebar('footer_1'); ?>    
-                </div><!--/.col-md-3-->
 
-                <div class="col-md-3 col-sm-6">
-                    <?php echo dynamic_sidebar('footer_2'); ?>
-                </div><!--/.col-md-3-->
+                 <?php if( ! dynamic_sidebar('footer_1')); 
 
-                <div class="col-md-3 col-sm-6">
-                    <?php echo dynamic_sidebar('footer_3'); ?>
+                 ?>
+                <div class="col-md-3 col-sm-6">                       
                 </div><!--/.col-md-3-->
-
-                <div class="col-md-3 col-sm-6">
-                    <?php echo dynamic_sidebar('footer_1'); ?>
-                </div><!--/.col-md-3-->
+                <?php ?>       
             </div>
         </div>
     </section><!--/#bottom-->

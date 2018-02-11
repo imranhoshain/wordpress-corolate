@@ -20,3 +20,10 @@ require_once(get_template_directory().'/inc/custom-widgets.php');
 
 //Custom feature create
 require_once(get_template_directory().'/inc/custom-features.php');
+
+//Custom recent
+require_once(get_template_directory().'/inc/recent-work.php');
+
+//Custom recent
+//require_once(get_template_directory().'/inc/shoer-work.php');
+

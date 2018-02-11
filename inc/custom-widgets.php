@@ -6,38 +6,9 @@ function footer_widgets(){
         'name' => __( 'Footer Widget 1', 'theme-slug' ),
         'id' => 'footer_1',
         'description' => __( 'Footer Widghet  link list', 'theme-slug' ),
-        'before_widget' => '<div class="widget">',
-		'after_widget'  => '</div>',
-		'before_title'  => '<h3>',
-		'after_title'   => '</h3>',
-	    ) );
-
-	register_sidebar( array(
-        'name' => __( 'Footer Widget 2', 'theme-slug' ),
-        'id' => 'footer_2',
-        'description' => __( 'Footer Widghet  link list', 'theme-slug' ),
-        'before_widget' => '<div class="widget">',
-		'after_widget'  => '</div>',
-		'before_title'  => '<h3>',
-		'after_title'   => '</h3>',
-	    ) );
-
-	register_sidebar( array(
-        'name' => __( 'Footer Widget 3', 'theme-slug' ),
-        'id' => 'footer_3',
-        'description' => __( 'Footer Widghet  link list', 'theme-slug' ),
-        'before_widget' => '<div class="widget">',
-		'after_widget'  => '</div>',
-		'before_title'  => '<h3>',
-		'after_title'   => '</h3>',
-	    ) );
-
-	register_sidebar( array(
-        'name' => __( 'Footer Widget 4', 'theme-slug' ),
-        'id' => 'footer_4',
-        'description' => __( 'Footer Widghet  link list', 'theme-slug' ),
-        'before_widget' => '<div class="widget">',
-		'after_widget'  => '</div>',
+        'before_widget' => '<div class="col-md-3 col-sm-6">
+                    <div class="widget">',
+		'after_widget'  => '</div></div>',
 		'before_title'  => '<h3>',
 		'after_title'   => '</h3>',
 	    ) );

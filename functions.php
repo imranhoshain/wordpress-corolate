@@ -24,6 +24,13 @@ require_once(get_template_directory().'/inc/custom-features.php');
 //Custom recent
 require_once(get_template_directory().'/inc/recent-work.php');
 
-//Custom recent
-//require_once(get_template_directory().'/inc/shoer-work.php');
+//Custom Service
+require_once(get_template_directory().'/inc/custom-service.php');
+
+//Custom Service
+require_once(get_template_directory().'/inc/shortcode.php');
+
+//Shortcode button
+require_once(get_template_directory().'/inc/tinymce.php');
+
 
